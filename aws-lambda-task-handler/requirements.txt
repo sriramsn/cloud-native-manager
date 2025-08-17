@@ -1,0 +1,2 @@
+# Lambda already has boto3; keep this file for local tests if needed
+boto3
