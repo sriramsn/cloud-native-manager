@@ -14,6 +14,8 @@ public class Task {
     @NotBlank(message = "Title is required")
     private String title;
 
+    // Getters and Setters
+
     public Long getId() {
         return id;
     }
@@ -66,6 +68,4 @@ public class Task {
         PENDING,
         COMPLETED
     }
-
-    // Getters and Setters
 }
